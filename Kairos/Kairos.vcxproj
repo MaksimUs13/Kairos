@@ -11,12 +11,14 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\Kairos\Log.h" />
     <ClInclude Include="src\Kairos.h" />
     <ClInclude Include="src\Kairos\Application.h" />
     <ClInclude Include="src\Kairos\Core.h" />
     <ClInclude Include="src\Kairos\EntryPoint.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="src\Kairos\Log.cpp" />
     <ClCompile Include="src\Kairos\Application.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
@@ -68,6 +70,8 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>KR_PLATFORM_WINDOWS;KR_BUILD_DLL;_WINDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)Kairos\thirdparty\spdlog\include</AdditionalIncludeDirectories>
+      <AdditionalOptions>/utf-8 %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -82,6 +86,8 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>KR_PLATFORM_WINDOWS;KR_BUILD_DLL;_WINDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)Kairos\thirdparty\spdlog\include</AdditionalIncludeDirectories>
+      <AdditionalOptions>/utf-8 %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>

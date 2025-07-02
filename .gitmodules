@@ -1,0 +1,3 @@
+[submodule "Kairos/thirdparty/spdlog"]
+	path = Kairos/thirdparty/spdlog
+	url = https://github.com/gabime/spdlog.git
