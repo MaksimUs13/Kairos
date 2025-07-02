@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.36128.20
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Sandbox", "Sandbox\Sandbox.vcxproj", "{5DC1F943-A08E-42C6-A006-3E87012CC4E4}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Kairos", "Kairos\Kairos.vcxproj", "{560A3415-71FD-42D8-86F3-54718A8786A1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{560A3415-71FD-42D8-86F3-54718A8786A1}.Debug|x64.ActiveCfg = Debug|x64
+		{560A3415-71FD-42D8-86F3-54718A8786A1}.Debug|x64.Build.0 = Debug|x64
+		{560A3415-71FD-42D8-86F3-54718A8786A1}.Release|x64.ActiveCfg = Release|x64
+		{560A3415-71FD-42D8-86F3-54718A8786A1}.Release|x64.Build.0 = Release|x64
+		{5DC1F943-A08E-42C6-A006-3E87012CC4E4}.Debug|x64.ActiveCfg = Debug|x64
+		{5DC1F943-A08E-42C6-A006-3E87012CC4E4}.Debug|x64.Build.0 = Debug|x64
+		{5DC1F943-A08E-42C6-A006-3E87012CC4E4}.Release|x64.ActiveCfg = Release|x64
+		{5DC1F943-A08E-42C6-A006-3E87012CC4E4}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {239EF935-43E2-4B07-AF04-11BB4CA936E3}
+	EndGlobalSection
+EndGlobal
